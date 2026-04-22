@@ -7,4 +7,4 @@ def twoSum(nums: List[int], target: int) -> List[int]:
         if complement in seen:
             return [seen[complement], i]
         seen[num] = i
-    return
+    return []
